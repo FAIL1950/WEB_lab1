@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Будильник онлайн</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="actual-integrity-value-goes-here" crossorigin="anonymous">
+
+</head>
+
+<body style="background-color: #06080f;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+    <symbol id="exclamation-triangle-fill" fill="currentColor" viewBox="0 0 16 16">
+      <path
+        d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+    </symbol>
+  </svg>
+
+
+
+  <nav class="navbar navbar-dark bg-dark">
+    <div class="container-fluid ">
+      <div class="row w-100">
+        <div class="col-2 col-sm-2 col-md-4 d-flex justify-content-start align-items-center"><button
+            class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключатель навигации">
+            <span class="navbar-toggler-icon"></span>
+          </button></div>
+        <div class="col-4 col-sm-6 col-md-4 d-flex justify-content-center align-items-center">
+          <div class="">
+
+            <a href="main.html" class="btn btn-dark active btn-sm d-block d-sm-none">БУДИЛЬНИК <br>ОНЛАЙН</a>
+
+            <a href="main.html" class="btn btn-dark active btn-md d-none d-sm-block">БУДИЛЬНИК ОНЛАЙН</a>
+
+          </div>
+        </div>
+        <div class="col-6 col-sm-4 col-md-4 d-flex justify-content-end align-items-center">
+          <div class="btn-group" role="group">
+            <a href="login.html" class="btn btn-outline-primary btn-sm d-block d-md-none">Увійти</a>
+            <a href="registration.html" class="btn btn-outline-primary btn-sm d-block d-md-none">Зареєструватись</a>
+
+            <a href="login.html" class="btn btn-outline-primary btn-md d-none d-md-block">Увійти</a>
+            <a href="registration.html" class="btn btn-outline-primary btn-md d-none d-md-block">Зареєструватись</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </nav>
+
+  <div class="w-25 p-1 collapse navbar-collapse bg-transparent position-absolute" id="navbarSupportedContent">
+    <div class="rounded-2" style="background-color: #0e1729;">
+      <ul class="nav flex-column">
+        <li class="w-100">
+          <div class="d-flex justify-content-center w-100">
+            <a href="about.html" class="btn btn-outline-light w-100">Про додаток</a>
+          </div>
+        </li>
+
+        <li class="w-100">
+          <div class="d-flex justify-content-center w-100">
+            <a href="profile.html" class="btn btn-outline-light w-100">Профіль</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+
+
+  <header>
+    <div class="d-flex justify-content-center text-light mt-5 ms-5 ms-md-1">
+      <img src="image/clock.png" alt="Описание изображения" class="d-block" width="120" height="120">
+      <h1 class="p-4">Про додаток "Будильник Онлайн"</h1>
+
+    </div>
+  </header>
+  <main>
+    <div class="container text-light mt-5">
+      <p>
+        Веб застосунок розроблено з метою ознайомлення з можливостями Bootstrap 5 та виконанням лабораторної роботи. Цей
+        застосунок здатен виконувати усе, що необхідно для сучасних будильників.
+      </p>
+      <h3 class="text-center mt-5">Як використовувати Веб додаток:</h3>
+      <ul class="list-group list-group-numbered mb-4">
+        <li class="list-group-item list-group-item-dark fw-bold">Заповнюєте поля з датою, часом та, якщо потрібно,
+          назвою.
+        </li>
+        <li class="list-group-item list-group-item-dark fw-bold">Натискаєте на кнопку "Створити будильник".</li>
+        <li class="list-group-item list-group-item-dark fw-bold">Ваш новостворений будильник з'явиться в таблиці "Список
+          будильників".</li>
+        <ul class="list-group ">
+          <li class="list-group-item list-group-item-dark fw-bold">
+            <h5>Додаткові можливості:</h5> Якщо необхідно, то можна створити декілька
+            будильників на один і той самий час. <br>Також можна видалити непотрібні будильники.
+          </li>
+        </ul>
+      </ul>
+    </div>
+  </main>
+
+  <footer class="bg-dark text-white text-center mt-5">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a data-mdb-ripple-init class="btn btn-floating m-1" style="background-color: #3b5998;" href="#!"
+          role="button"><i class="fab fa-facebook-f"></i></a>
+
+        <!-- Twitter -->
+        <a data-mdb-ripple-init class="btn btn-floating m-1" style="background-color: #55acee;" href="#!"
+          role="button"><i class="fab fa-twitter"></i></a>
+
+        <!-- Google -->
+        <a data-mdb-ripple-init class="btn btn-floating m-1" style="background-color: #dd4b39;" href="#!"
+          role="button"><i class="fab fa-google"></i></a>
+
+        <!-- Instagram -->
+        <a data-mdb-ripple-init class="btn btn-floating m-1" style="background-color: #ac2bac;" href="#!"
+          role="button"><i class="fab fa-instagram"></i></a>
+
+        <!-- Linkedin -->
+        <a data-mdb-ripple-init class="btn btn-floating m-1" style="background-color: #0082ca;" href="#!"
+          role="button"><i class="fab fa-linkedin-in"></i></a>
+
+        <!-- Github -->
+        <a data-mdb-ripple-init class="btn btn-floating m-1" style="background-color: #333333;" href="#!"
+          role="button"><i class="fab fa-github"></i></a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(255, 255, 255, 0.1);">
+      КВ-12 Гусельніков А.О.
+    </div>
+    <!-- Copyright -->
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.6.4.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
